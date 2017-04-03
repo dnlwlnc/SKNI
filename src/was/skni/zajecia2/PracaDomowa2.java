@@ -14,6 +14,7 @@ public class PracaDomowa2 {
         int numberOfOnesHist = 0;
         int images = 0;
         int licznik = 0;
+
         while (skaner.hasNext()) {
 
             int numberOfZeroes = 0;
@@ -36,9 +37,8 @@ public class PracaDomowa2 {
             }
             if (numberOfOnes > numberOfZeroes) reverses++;
             images++;
-            System.out.format("Obrazek: %d  Number of ones: %d\n",images, numberOfOnes);
+            System.out.format("Obrazek: %d  Liczba jedynek: %d\n",images, numberOfOnes);
         }
-        System.out.println(licznik);
-        System.out.format("Liczba rewersów: %d\nNajwiększa liczba '1' w obrazku: %d\nLiczba wszystkich obrazków: %d", reverses, numberOfOnesHist, images);
+        System.out.format("\nLiczba rewersów: %d\nNajwiększa liczba '1' w obrazku: %d\nLiczba wszystkich obrazków: %d", reverses, numberOfOnesHist, images);
     }
 }
