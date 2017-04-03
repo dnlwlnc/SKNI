@@ -13,8 +13,9 @@ public class PracaDomowa2 {
         int reverses = 0;
         int numberOfOnesHist = 0;
         int images = 0;
-
+        int licznik = 0;
         while (skaner.hasNext()) {
+
             int numberOfZeroes = 0;
             int numberOfOnes = 0;
 
@@ -22,7 +23,7 @@ public class PracaDomowa2 {
                 String wers = skaner.next();
                 char[] wersChar = wers.toCharArray();
                 if (wers.length() == 21) {
-                    for (int j = 0; j < wersChar.length; j++) {
+                    for (int j = 0; j < wersChar.length-1; j++) {
                         if (wersChar[j] == '0') {
                             numberOfZeroes++;
                         } else if (wersChar[j] == '1') {
@@ -31,10 +32,13 @@ public class PracaDomowa2 {
                     }
                 } else continue;
                 if (numberOfOnes > numberOfOnesHist) numberOfOnesHist = numberOfOnes;
+                licznik++;
             }
             if (numberOfOnes > numberOfZeroes) reverses++;
             images++;
+            System.out.format("Obrazek: %d  Number of ones: %d\n",images, numberOfOnes);
         }
+        System.out.println(licznik);
         System.out.format("Liczba rewersów: %d\nNajwiększa liczba '1' w obrazku: %d\nLiczba wszystkich obrazków: %d", reverses, numberOfOnesHist, images);
     }
 }
