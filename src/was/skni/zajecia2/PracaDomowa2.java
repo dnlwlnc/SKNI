@@ -35,6 +35,6 @@ public class PracaDomowa2 {
             if (numberOfOnes > numberOfZeroes) reverses++;
             images++;
         }
-        System.out.println(reverses + " " + numberOfOnesHist + " " + images);
+        System.out.format("Liczba rewersów: %d\nNajwiększa liczba '1' w obrazku: %d\nLiczba wszystkich obrazków: %d", reverses, numberOfOnesHist, images);
     }
 }
