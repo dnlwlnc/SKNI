@@ -12,8 +12,13 @@ public class Kwadrat {
     }
 
     Kwadrat(int bokA, int bokB){
-        this.a = bokA;
-        this.b = bokB;
+        if(bokA > 0 && bokB > 0){
+            this.a = bokA;
+            this.b = bokB;
+        } else {
+            System.out.println("Kwadrat nie może mieć ujemnych długości boków.");
+        }
+
     }
 
     public String czyKwadrat(){

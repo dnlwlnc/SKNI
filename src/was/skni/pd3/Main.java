@@ -7,8 +7,10 @@ public class Main {
     public static void main(String[] args){
         Kwadrat nowyProstokat = new Kwadrat();
         System.out.println(nowyProstokat);
-        Kwadrat drugi = new Kwadrat(10,20);
+        Kwadrat drugi = new Kwadrat(-10,20);
+        System.out.println(drugi);
         int bokTestowy = 5;
+
         System.out.println("Pole prostokąta to: " + drugi.poleProstokata());
         System.out.println(drugi.czyKwadrat());
         System.out.printf("W twój prostokąt można wpisać %d kwadratów o boku %d\n", drugi.ileKwadratow(bokTestowy), bokTestowy);
