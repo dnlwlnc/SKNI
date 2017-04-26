@@ -1,4 +1,4 @@
-package zaj4class;
+package was.skni.zajecia4;
 
 
 import java.util.Date;

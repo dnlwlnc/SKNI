@@ -1,11 +1,11 @@
-package zaj4class;
+package was.skni.zajecia4;
 
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class Pracownik extends Person{
+public class Pracownik extends Person {
 
     int salary;
     int kasa;

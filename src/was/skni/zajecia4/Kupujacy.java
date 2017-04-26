@@ -1,4 +1,4 @@
-package zaj4class;
+package was.skni.zajecia4;
 
 import java.util.ArrayList;
 import java.util.Date;
