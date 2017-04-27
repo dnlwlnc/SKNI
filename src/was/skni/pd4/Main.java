@@ -1,13 +1,26 @@
 package was.skni.pd4;
 
-/**
- * Created by welencd on 2017-04-26.
- */
-public class Main {
-    public static void main(String[] args){
-        Ksiazka mitologiaNordycka = new Ksiazka("Mitologia Nordycka", 30, 350);
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
 
-        System.out.println(Ksiazka.getAllBooks().get(0).getCena());
+public class Main {
+    public static void main(String[] args) throws FileNotFoundException {
+
+        File input = new File("C:\\Users\\welencd\\IdeaProjects\\SKNI\\filmy.txt");
+        Scanner scanner = new Scanner(input);
+        while(scanner.hasNext()){
+            new Film(scanner.next(), Double.parseDouble(scanner.next()), Integer.parseInt(scanner.next()));
+        }
+
+        File inputKsiazki = new File("C:\\Users\\welencd\\IdeaProjects\\SKNI\\ksiazki.txt");
+        Scanner scannerKsiazki = new Scanner(inputKsiazki);
+        while(scannerKsiazki.hasNext()){
+            new Ksiazka(scannerKsiazki.next(), Double.parseDouble(scannerKsiazki.next()), Integer.parseInt(scannerKsiazki.next()));
+        }
+
+        Film.najdluzszyFilm(Film.getAllFilms());
+        Ksiazka.najdrozszaKsiazka(Ksiazka.getAllBooks());
 
     }
 }

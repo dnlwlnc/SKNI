@@ -8,10 +8,9 @@ import java.util.List;
  */
 public class Book {
 
-
     private String author;
     private int price;
-    private static List<Book> allBooks= new ArrayList<>();
+    private static List<Book> allBooks = new ArrayList<>();
 
     Book(String a, int p) {
         this.author=a;

@@ -3,15 +3,12 @@ package was.skni.pd4;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by welencd on 2017-04-26.
- */
 public class Ksiazka extends Produkt {
 
-    int liczbaStron;
+    private int liczbaStron;
     private static List<Ksiazka> allBooks = new ArrayList<>();
 
-    Ksiazka(String tytul, int cena, int liczbaStron) {
+    Ksiazka(String tytul, double cena, int liczbaStron) {
         super(tytul, cena);
         this.liczbaStron=liczbaStron;
         allBooks.add(this);
@@ -31,5 +28,18 @@ public class Ksiazka extends Produkt {
 
     public static List<Ksiazka> getAllBooks() {
         return allBooks;
+    }
+
+    public static void najdrozszaKsiazka(List<Ksiazka> allBooks) {
+        Ksiazka.allBooks = allBooks;
+        double naj = 0;
+        int najPos = 0;
+        for (int i = 0; i < allBooks.size(); i++) {
+            if (allBooks.get(i).getCena() > naj) {
+                naj = allBooks.get(i).getCena();
+                najPos = i;
+            }
+        }
+        System.out.println("Najdrozsza ksiazka to: " + allBooks.get(najPos).getTytul() + " - " + allBooks.get(najPos).getCena() + " PLN.");
     }
 }

@@ -30,6 +30,7 @@ public class Test {
 
         k.buyBook(new Book("A"),p);
         p.setBooksAvailable(Book.getAllBooks());
+
         System.out.println("Liczba książek sprzedającego: "+
                 p.getBooksAvailable().size()+" kasa: "+p.kasa);
         System.out.println("Liczba książek kupującego: "+
@@ -37,6 +38,7 @@ public class Test {
 
         k.buyBook(new Book("F"),p);
         p.setBooksAvailable(Book.getAllBooks());
+
         System.out.println("Liczba książek sprzedającego: "+
                 p.getBooksAvailable().size()+" kasa: "+p.kasa);
         System.out.println("Liczba książek kupującego: "+

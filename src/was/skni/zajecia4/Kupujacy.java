@@ -22,9 +22,9 @@ public class Kupujacy extends Person{
     }
 
     public void buyBook(Book book, Pracownik p) {
-        for (int i=0;i<p.getBooksAvailable().size();i++) {
-            if (p.getBooksAvailable().get(i).getAuthor()==book.getAuthor()){
-                if (this.getMoney()>=p.getBooksAvailable().get(i).getPrice()) {
+        for (int i=0; i < p.getBooksAvailable().size(); i++) {
+            if (p.getBooksAvailable().get(i).getAuthor() == book.getAuthor()){
+                if (this.getMoney() >= p.getBooksAvailable().get(i).getPrice()) {
                     this.getBooksBought().add(p.getBooksAvailable().get(i));
                     this.money -= p.getBooksAvailable().get(i).getPrice();
                     p.sellBook(i);

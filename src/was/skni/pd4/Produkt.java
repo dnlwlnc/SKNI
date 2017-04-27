@@ -4,10 +4,11 @@ package was.skni.pd4;
  * Created by welencd on 2017-04-26.
  */
 public abstract class Produkt {
-    String tytul;
-    int cena;
 
-    Produkt(String tytul, int cena){
+    private String tytul;
+    private double cena;
+
+    Produkt(String tytul, double cena){
         this.tytul=tytul;
         this.cena=cena;
     }
@@ -16,7 +17,7 @@ public abstract class Produkt {
         return tytul;
     }
 
-    public int getCena() {
+    public double getCena() {
         return cena;
     }
 
@@ -24,7 +25,7 @@ public abstract class Produkt {
         this.tytul = tytul;
     }
 
-    public void setCena(int cena) {
+    public void setCena(double cena) {
         this.cena = cena;
     }
 }

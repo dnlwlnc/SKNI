@@ -11,8 +11,6 @@ public class Pracownik extends Person {
     int kasa;
     private List<Book> booksAvailable;
 
-
-
     Pracownik(String firstName, String surname, Date birthday,
               int salary, int kasa) {
         super(firstName,surname,birthday);
@@ -25,7 +23,6 @@ public class Pracownik extends Person {
         this.kasa+=this.getBooksAvailable().get(index).getPrice();
         this.getBooksAvailable().remove(index);
     }
-
 
     public int getSalary() {
         return salary;
