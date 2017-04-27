@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e94bba6b-d27d-41df-933c-7fee101afac1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/was/skni/pd4/Film.java" afterPath="$PROJECT_DIR$/src/was/skni/pd4/Film.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/was/skni/pd4/Ksiazka.java" afterPath="$PROJECT_DIR$/src/was/skni/pd4/Ksiazka.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/was/skni/pd4/Main.java" afterPath="$PROJECT_DIR$/src/was/skni/pd4/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/was/skni/pd4/Produkt.java" afterPath="$PROJECT_DIR$/src/was/skni/pd4/Produkt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/was/skni/zajecia4/Book.java" afterPath="$PROJECT_DIR$/src/was/skni/zajecia4/Book.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/was/skni/zajecia4/Kupujacy.java" afterPath="$PROJECT_DIR$/src/was/skni/zajecia4/Kupujacy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/was/skni/zajecia4/Pracownik.java" afterPath="$PROJECT_DIR$/src/was/skni/zajecia4/Pracownik.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/was/skni/zajecia4/Test.java" afterPath="$PROJECT_DIR$/src/was/skni/zajecia4/Test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +21,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1493284286631" expanded="true" signature="191:248" ph="{...}" />
+                <marker date="1493284286631" expanded="false" signature="278:289" ph=" { " />
+                <marker date="1493284286631" expanded="false" signature="302:308" ph=" }" />
+                <marker date="1493284286631" expanded="false" signature="337:348" ph=" { " />
+                <marker date="1493284286631" expanded="false" signature="360:366" ph=" }" />
+                <marker date="1493284286631" expanded="false" signature="406:417" ph=" { " />
+                <marker date="1493284286631" expanded="false" signature="436:442" ph=" }" />
+                <marker date="1493284286631" expanded="false" signature="480:491" ph=" { " />
+                <marker date="1493284286631" expanded="false" signature="508:514" ph=" }" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,10 +39,18 @@
       <file leaf-file-name="Ksiazka.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/was/skni/pd4/Ksiazka.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+            <state relative-caret-position="382">
+              <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,10 +59,18 @@
       <file leaf-file-name="Film.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/was/skni/pd4/Film.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
+            <state relative-caret-position="799">
               <caret line="47" column="112" lean-forward="false" selection-start-line="47" selection-start-column="112" selection-end-line="47" selection-end-column="112" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -224,6 +243,24 @@
               <option name="myItemId" value="skni" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SKNI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SKNI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="zajecia4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -248,24 +285,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="zajecia3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SKNI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SKNI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skni" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -691,7 +710,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493215129792</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Czwarta praca domowa z poprawionymi zmiennymi.">
+      <created>1493284187209</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1493284187209</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -744,7 +770,8 @@
     <MESSAGE value="Poprawiony błąd prowadzący do złego wyniku i małe zmiany w formatowaniu tekstu." />
     <MESSAGE value="Trzecie zajęcia! Klasy, metody i klasa test." />
     <MESSAGE value="Trzecia praca domowa." />
-    <option name="LAST_COMMIT_MESSAGE" value="Trzecia praca domowa." />
+    <MESSAGE value="Czwarta praca domowa z poprawionymi zmiennymi." />
+    <option name="LAST_COMMIT_MESSAGE" value="Czwarta praca domowa z poprawionymi zmiennymi." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -814,6 +841,14 @@
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1071,16 +1106,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/was/skni/pd4/Film.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="47" column="112" lean-forward="false" selection-start-line="47" selection-start-column="112" selection-end-line="47" selection-end-column="112" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/was/skni/pd4/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1136,16 +1161,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1493284286631" expanded="true" signature="191:248" ph="{...}" />
+            <marker date="1493284286631" expanded="false" signature="278:289" ph=" { " />
+            <marker date="1493284286631" expanded="false" signature="302:308" ph=" }" />
+            <marker date="1493284286631" expanded="false" signature="337:348" ph=" { " />
+            <marker date="1493284286631" expanded="false" signature="360:366" ph=" }" />
+            <marker date="1493284286631" expanded="false" signature="406:417" ph=" { " />
+            <marker date="1493284286631" expanded="false" signature="436:442" ph=" }" />
+            <marker date="1493284286631" expanded="false" signature="480:491" ph=" { " />
+            <marker date="1493284286631" expanded="false" signature="508:514" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/was/skni/pd4/Film.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="112" lean-forward="false" selection-start-line="47" selection-start-column="112" selection-end-line="47" selection-end-column="112" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/was/skni/pd4/Ksiazka.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        <state relative-caret-position="382">
+          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
           </folding>
         </state>
       </provider>
