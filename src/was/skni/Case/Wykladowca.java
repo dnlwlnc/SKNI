@@ -49,6 +49,21 @@ public class Wykladowca extends Osoba {
         return wiadomosci;
     }
 
+    public void wystawOcene(Student s, Przedmiot p, int ocena) {
+        boolean zapisanyNaPrzedmiot = false;
+        for (int i=0; i < s.przedmiotyStudenta.size(); i++) {
+            if (p.getNazwa().equals(s.przedmiotyStudenta.get(i).getNazwa())) {
+                zapisanyNaPrzedmiot = true;
+            }
+        }
+
+        if(zapisanyNaPrzedmiot==true){
+            s.getOceny().put(p.getNazwa(), ocena);
+        }else{
+            System.out.println("Student nie jest zapisany na przedmiot " + p.getNazwa());
+        }
+    }
+
     public static int getLimitWykladowcy() {
         return limitWykladowcy;
     }
@@ -97,5 +112,7 @@ public class Wykladowca extends Osoba {
     public void setSkrzynkaOdbiorcza(Map<String, Boolean> skrzynkaOdbiorcza) {
         this.skrzynkaOdbiorcza = skrzynkaOdbiorcza;
     }
+
+
 }
 

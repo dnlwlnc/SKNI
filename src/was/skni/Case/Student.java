@@ -42,6 +42,8 @@ public class Student extends Osoba {
         }
     }
 
+
+/*
     public void wystawOcenę(Przedmiot p, int ocena) {
         boolean zapisanyNaPrzedmiot = false;
         for(int i=0; i < przedmiotyStudenta.size(); i++){
@@ -55,7 +57,7 @@ public class Student extends Osoba {
         }else{
             System.out.println("Student nie jest zapisany na przedmiot.");
         }
-    }
+    }*/
 
     public double wyswietlOcene(Przedmiot p) {
         try {
@@ -167,4 +169,6 @@ public class Student extends Osoba {
     public void setSkrzynkaOdbiorcza(Map<String, Boolean> skrzynkaOdbiorcza) {
         this.skrzynkaOdbiorcza = skrzynkaOdbiorcza;
     }
+
+
 }

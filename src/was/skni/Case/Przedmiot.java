@@ -69,5 +69,11 @@ public class Przedmiot {
         Przedmiot.wszystkiePrzedmioty = wszystkiePrzedmioty;
     }
 
+    public int getIdWykladowcy() {
+        return idWykladowcy;
+    }
 
+    public void setIdWykladowcy(int idWykladowcy) {
+        this.idWykladowcy = idWykladowcy;
+    }
 }
