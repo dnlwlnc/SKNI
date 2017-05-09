@@ -6,9 +6,9 @@ import java.util.Date;
  * Created by Daniel on 06.05.2017.
  */
 public abstract class Osoba {
-    String imie;
-    String nazwisko;
-    Date birthday;
+    private String imie;
+    private String nazwisko;
+    private Date birthday;
 
     Osoba(String imie, String nazwisko, Date birthday) {
         this.imie=imie;
@@ -39,4 +39,5 @@ public abstract class Osoba {
     public void setBirthday(Date birthday) {
         this.birthday = birthday;
     }
+
 }
