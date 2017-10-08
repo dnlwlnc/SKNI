@@ -1,0 +1,20 @@
+CASE
+Zadanie jest nastêpuj¹ce:
+Napisz system obs³uguj¹cy studentów na uczelni. Na podstawie abstrakcyjnej klasy „Osoba” zbuduj klasê „Student” oraz „Wyk³adowca”. Ka¿da klasa musi mieæ odpowiednie parametry.
+Dodaj klasê „Przedmiot”, która umo¿liwia zapisy do danego wyk³adowcy, bior¹c pod uwagê limit miejsc na dany kurs. Jeden wyk³adowca mo¿e prowadziæ wiele kursów, ale nie wiêcej ni¿ 5. Zbuduj metody
+- umo¿liwiaj¹c¹ studentowi zapisanie siê na przedmioty
+- wystawianie ocen przez wyk³adowcê studentom
+- wyœwietlanie ocen ze wszystkich, lub z wybranego przedmiotu wyswietlOceny() (u¿yjcie metody override)
+- wyliczanie œredniej ocen dla studentów
+- wysy³anie wiadomoœci przez Studentów do wyk³adowców i na odwrót
+	- u¿yj klasy Map<>, zawieraj¹c¹ wiadomoœæ oraz Boolean, przyjmuj¹cego true, gdy wiadomoœæ zosta³a wyœwietlona
+	- wyœwietlanie wiadomoœci
+	- dodaj mo¿liwoœæ sprawdzania liczby nie wyœwietlonych wiadomoœci
+Na koniec stwórzcie GUI przez które bêdzie mo¿na wystawiaæ studentom oceny
+
+Nie martwicie siê, jeœli nie wszystko siê uda. Podzielcie swoj¹ pracê na nastêpuj¹ce czêœci i w razie czego wyœlijcie rozwi¹zanie czêœciowe:
+1. zrobienie tych klas ze zmiennymi, getterami i setterami  (5 pkt)
+2. zapisywanie na przedmioty  (8 pkt)
+4. wystawianie ocen (7 pkt)
+3. wyœwietlanie ocen i wyliczanie œredniej z GUI (10 pkt)
+6. korespondencja (10 pkt)
